@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Simulador Interactivo</title>
+</head>
+
+<body>
+    <center>
+    <section class="conteiner">
+        <h1>Convertidor de Divisas</h1>
+        Cantidad: <input type="range" id="cantidad" min="0" max="1000" value="0" onchange="convertir()">
+        <span id="valor"> 0</span>
+        <br>
+        
+
+        <select id="de" class="form-select" aria-label="Default select example" onchange="convertir()">
+          
+            <option value="1">PESO</option>
+            <option value="2">DOLAR</option>
+            <option value="3">EURO</option>
+        </select>
+        <br>
+        <select id="a" class="form-select" aria-label="Default select example" onchange="convertir()">
+          
+            <option value="1">PESO</option>
+            <option value="2">DOLAR</option>
+            <option value="3">EURO</option>
+        </select>
+
+        <h2 id="resultado">Resultado: $0.00</h2>
+    </section>
+</center>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+body {
+
+    font-family: Calibri;
+
+}
+
+* {
+    font-family: 'Zen Dots', cursive;
+}
+
+h1 {
+    color: #FFFFFF;
+    background-color: #ffbd33;
+    padding: 10px;
+    border-radius: 20px;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+
+}
+
+.conteiner {
+    width: 300px;
+    margin: 5px;
+    padding: 0px;
+}
+
+select {
+    margin-top: 15px;
+
+}
+
+input {
+    margin-top: 15px;
+}
+
+span {
+    font-size: 18px;
+}
